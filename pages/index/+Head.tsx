@@ -1,10 +1,10 @@
-const SITE_URL = 'https://digitalshed.bookable.online'
-const BRAND_NAME = 'The Digital Shed'
+const SITE_URL = 'https://bookable.online'
+const BRAND_NAME = 'Bookable Studios'
 
 export default function Head() {
-  const title = `${BRAND_NAME} · Battle`
+  const title = `${BRAND_NAME} — Architectural & Interior Visualisation`
   const description =
-    'A monthly workshop in Battle, East Sussex for anyone stuck on something digital. Bring a real problem, leave with it working.'
+    'We turn floor plans, specification sheets, and mood boards into photorealistic architectural and interior renders — for bar, hospitality, commercial, and residential projects. Based in Battle, East Sussex.'
 
   return (
     <>
